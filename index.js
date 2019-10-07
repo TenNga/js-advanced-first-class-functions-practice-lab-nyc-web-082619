@@ -25,3 +25,6 @@ function totalRevenueHelper(total,driver){
     return total + driver.revenue;
 }
 
+function averageRevenue() {
+  
+}
