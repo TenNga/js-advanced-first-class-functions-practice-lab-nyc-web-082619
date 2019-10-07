@@ -18,7 +18,7 @@ function driversByName(drivers){
 }
 
 function totalRevenue(drivers){
-  return drivers.slice().reduce((total,driver)=>{
+  return drivers.slice().reduce(function(total,driver){
     return total + driver.revenue;
   })
 }
