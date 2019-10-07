@@ -14,5 +14,5 @@ function driversByRevenue(drivers) {
 }
 
 function driversByName(drivers){
-  return drivers.sort((a,b)=>{return a.localecompare})
+  return drivers.sort((a,b)=>{return a.localeCompare})
 }
